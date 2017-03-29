@@ -1,0 +1,83 @@
+/*GENERAL ******************************************** */
+.wrap{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.special{
+	color: rgba(255,255,255,1);
+}
+
+hr{
+	border-color: rgba(255,255,255,0.3);
+}
+
+
+
+/*CONTACT ******************************************** */
+#contact{
+	background-image: url("../images/dark_embroidery.png");
+	height: 30px;
+	color: rgba(255,255,255,0.8);
+}
+
+#contact span,p{
+	font-size: 13px;
+	line-height: 30px;
+	padding:0 10px;
+}
+
+/*NAVBAR ******************************************** */
+
+
+
+/*HERO ******************************************** */
+
+#main-heading{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.image-hero{
+	display: inline-block;
+	position: relative;
+	width: 400px;
+	height: 300px;
+	opacity: 0.25;
+	text-align: center;
+	z-index: -1;
+}
+
+.row h4 a{
+	position: absolute;
+	width: 260px;
+	text-align: center;
+	line-height: 300px;
+	z-index: 1;
+	color: black;
+}
+.row h4 a:hover{
+	color: rgba(0,0,0,0.6);
+}
+
+.hero{
+	margin-top: 50px;
+}
+
+.main{
+	margin-top: 50px;
+	text-align: center;
+	background-image: url("../images/dark_embroidery.png");
+	color: rgba(255,255,255,0.8);
+	overflow: hidden;
+	padding-bottom: 50px;
+
+}
+.main h1{
+	padding-top: 20px;
+	color: LightSkyBlue;
+}
+
+.main .wrap p{
+	font-size: 15px;
+}

@@ -1,0 +1,61 @@
+/*GENERAL ******************************************** */
+
+body{
+	min-height: 100%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.wrap{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.special{
+	color: rgba(255,255,255,1);
+}
+
+hr{
+	border-color: rgba(255,255,255,0.3);
+}
+
+/*CONTACT ******************************************** */
+#contact{
+	background-image: url("../images/dark_embroidery.png");
+	height: 30px;
+	color: rgba(255,255,255,0.8);
+}
+
+#contact span,p{
+	font-size: 13px;
+	line-height: 30px;
+	padding:0 10px;
+}
+
+/*NAVBAR ******************************************** */
+
+
+
+/*HERO ******************************************** */
+.hero{
+	margin-top: 50px;
+}
+
+.main{
+	padding-top: 20px;
+	text-align: center;
+	background-image: url("../images/dark_embroidery.png");
+	color: rgba(255,255,255,0.8);
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.main .wrap h3{
+	padding-top: 30px;
+	color: rgba(255,255,255,1);
+}
+
+.main .wrap p{
+	font-size: 15px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
